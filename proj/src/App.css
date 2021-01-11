@@ -1,0 +1,36 @@
+.calc {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.calc button {
+  width: 40px;
+  height: 40px;
+  font-size: 30px;
+  background: green;
+  padding: 0;
+  line-height: 38px;
+  color: #ffffff;
+}
+.calc .res {
+  font-weight: 700;
+  font-size: 30px;
+}
+.reset {
+  text-align: center;
+}
+.reset button {
+  background: red;
+  color: #fff;
+  border: none;
+  width: 40px;
+  height: 40px;
+  font-size: 30px;
+  padding: 0;
+}
+.reset_val {
+  text-align: center;
+}
