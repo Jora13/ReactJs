@@ -26,8 +26,9 @@ class Toggle extends React.Component {
       }))
    }
 
-
    render() {
+      let g = "ssdsd"
+      console.log(g[0]);
       return (
          <div className="learn1">
             <div className="calc">
