@@ -13,7 +13,8 @@ export default class MessageField extends React.Component {
             text: "Как дела?",
             author: "Alex"
          }
-      ]
+      ],
+      user: 'Jora'
    };
 
    componentDidUpdate() {
@@ -34,7 +35,7 @@ export default class MessageField extends React.Component {
       this.setState({
          messages: [...this.state.messages,
          {
-            text: 'Нормально',
+            text: 'Привет, ' + this.state.user,
             author: 'I am Robot'
          }
          ]
