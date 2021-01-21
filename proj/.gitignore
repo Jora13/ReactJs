@@ -4,6 +4,7 @@
 /node_modules
 /.pnp
 .pnp.js
+/Install of React.js.html
 
 # testing
 /coverage
