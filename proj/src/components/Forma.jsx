@@ -4,7 +4,7 @@ let Forma = ({ addNewMessage }) => {
    const [value, setValue] = useState('')
 
    const handleChange = useCallback((e) => {
-      setValue(e.target.message)
+      setValue(e.target.value)
    }, [])
 
    const submitMessage = useCallback((e) => {

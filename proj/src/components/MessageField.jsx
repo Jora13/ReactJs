@@ -86,7 +86,9 @@ export default function MessageField() {
    }, [])
 
    const handleNewMessage = useCallback((text, author = 'Jora') => {
-      setMessages((oldMessages) => ([...oldMessages, { text, author }]))
+      if (text !== '') {
+         setMessages((oldMessages) => ([...oldMessages, { text, author }]))
+      }
    }, [])
 
    useEffect(() => {
