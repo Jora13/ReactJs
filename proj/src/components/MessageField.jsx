@@ -104,7 +104,9 @@ export default function MessageField() {
 
    return (
       <>
-         {messages.map(renderMessage)}
+         <div className="message_wrap">
+            {messages.map(renderMessage)}
+         </div>
          <Forma addNewMessage={handleNewMessage} />
       </>
    )

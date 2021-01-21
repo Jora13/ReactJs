@@ -34,3 +34,44 @@
 .reset_val {
   text-align: center;
 }
+.form-controll input {
+  border: none;
+  border-bottom: 1px solid green;
+}
+.message_wrap {
+  padding-bottom: 30px;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 30px;
+}
+.sidebar_nav ul {
+  list-style: none;
+}
+.sidebar_nav ul li {
+  margin-bottom: 5px;
+  border-bottom: 1px dotted #cccccc;
+}
+.sidebar_nav ul li a {
+  color: #000;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  padding: 7px 0;
+  display: block;
+  font-weight: 600;
+}
+.sidebar_nav ul li a:hover {
+  color: blue;
+}
+.message_value {
+  font-size: 14px;
+  font-weight: 500;
+  padding: 5px 10px;
+  background: rgba(22, 37, 182, 0.1);
+  display: inline-block;
+  border-radius: 3px;
+  margin-bottom: 8px;
+}
+
+.messanger {
+  padding: 50px 0;
+}

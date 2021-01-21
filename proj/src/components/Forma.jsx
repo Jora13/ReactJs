@@ -4,10 +4,11 @@ let Forma = ({ addNewMessage }) => {
    const [value, setValue] = useState('')
 
    const handleChange = useCallback((e) => {
-      setValue(e.target.value)
+      setValue(e.target.message)
    }, [])
 
    const submitMessage = useCallback((e) => {
+      console.log(e);
       e.preventDefault()
       addNewMessage(value)
       setValue('')
@@ -17,8 +18,10 @@ let Forma = ({ addNewMessage }) => {
 
    return (
       <form className="send_message_form" onSubmit={submitMessage} >
-         <input type="text" onChange={handleChange} value={value} placeholder="Enter your message" />
-         <button type="submit" className="btn">Send message</button>
+         <div className="form-controll">
+            <textarea type="text" onChange={handleChange} value={value} placeholder="Enter your message"></textarea>
+         </div>
+         <button type="submit" className="btn btn-success">Send message</button>
          <p>{value}</p>
       </form>
    )
