@@ -8,7 +8,6 @@ let Forma = ({ addNewMessage }) => {
    }, [])
 
    const submitMessage = useCallback((e) => {
-      console.log(e);
       e.preventDefault()
       addNewMessage(value)
       setValue('')

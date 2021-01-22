@@ -45,6 +45,7 @@
 }
 .sidebar_nav ul {
   list-style: none;
+  padding: 0;
 }
 .sidebar_nav ul li {
   margin-bottom: 5px;

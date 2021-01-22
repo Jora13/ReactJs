@@ -96,7 +96,7 @@ export default function MessageField() {
       if (messages[messages.length - 1].author !== 'Robot') {
          timeout = setTimeout(() => {
             handleNewMessage('My name is Skynet', 'Robot')
-         }, 1000)
+         }, 2000)
       }
 
       return () => {
